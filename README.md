@@ -50,28 +50,15 @@ The workflow of this project was executed using a combination of bioinformatics 
 
 ![sitmap](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-02-27%20211303.png)
 
-## 📊 Results & Pocket Selection
-
-Out of the 10 predicted pockets, **Pocket 1** was selected as the optimal allosteric binding site based on its favorable scoring metrics and strategic location.
-
-### Pocket 1 Parameters:
-* **Dscore:** $\approx$ 1.205
-* **SiteScore:** $\approx$ 1.19
-* **Volume:** $\approx$ 163 Å³
-
-### Rationale for Selection:
-1.  **High Druggability:** The Dscore and SiteScore indicate a highly favorable pocket for small molecule binding.
-2.  **Compact Volume:** The relatively small volume (163 Å³) is ideal for a specific, high-affinity small molecule.
-3.  **Allosteric Nature:** Most importantly, this pocket is located entirely distinct and distant from the **Heme region**. Targeting this site reduces the risk of completely shutting down the enzyme's catalytic activity or causing off-target effects associated with heme-binding drugs.
-
-![Insert Image of Pocket 1 visualized in Schrodinger here]
 
 ## 🛠️ Tools Used
 * SignalP
 * DeepTMHMM
 * AlphaFold
+* PyMol
 * Schrödinger Suite (Protein Preparation Wizard, SiteMap)
 
 ## 🚀 Future Work
-* Perform virtual screening (Molecular Docking) against the identified allosteric pocket.
+* selection Allosteric Site.
+* Perform virtual screening (Molecular Docking) NAMs the identified allosteric pocket.
 * Conduct Molecular Dynamics (MD) simulations to validate the stability of the protein-ligand complexes.
