@@ -36,7 +36,8 @@ The workflow of this project was executed using a combination of bioinformatics 
 * **Tool:** AlphaFold 
 * **Action:** Due to the lack of a full PDB structure, a high-confidence 3D model of the mature TPO was generated utilizing AlphaFold's deep learning predictive capabilities.
 
-![Insert Image of your AlphaFold 3D model here]
+![Insert Image of your AlphaFold 3D model here](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/120649A081B0F2E6.png)
+
 
 ### 4. Protein Preparation & Minimization
 * **Tool:** Schrödinger Suite (Protein Preparation Wizard)
