@@ -16,6 +16,8 @@ The workflow of this project was executed using a combination of bioinformatics 
 * **Results:** * **Signal Peptide Probability:** 99.98%
     * **Cleavage Site:** Between amino acids 18 and 19.
     * **Outcome:** Residues 1 through 18 were successfully cleaved. The resulting sequence (starting from residue 19) represents the **mature TPO**, which was subsequently used for all downstream topological and structural modeling.
+
+
 ![signal peptide plot](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-02-27%20211856.png)
 
 ### 2. Transmembrane Topology Prediction
