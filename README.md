@@ -17,12 +17,13 @@ The workflow of this project was executed using a combination of bioinformatics 
     * **Outcome:** Residues 1 through 18 were successfully cleaved. The resulting sequence (starting from residue 19) represents the **mature TPO**, which was subsequently used for all downstream topological and structural modeling.
 
 ### 2. Transmembrane Topology Prediction
-* **Tool:** [DeepTMHMM]
-* **Action:** The topological structure of the mature protein was mapped to identify functional domains. 
-* **Results:**
-    * `Extracellular Domain:` Residues 1 - 831
-    * `Transmembrane (TM) Helix:` Residues 832 - 852
-    * `Intracellular Domain:` Residues 853 - 915
+* **Tool:** DeepTMHMM
+* **Action:** To understand the spatial orientation and functional regions of the mature TPO enzyme, a comprehensive transmembrane topology prediction was performed. This step is crucial for accurate 3D modeling and ensuring that pocket identification targets the correct physiological domains.
+* **Results:** The analysis of the mature TPO sequence revealed a classic single-pass transmembrane architecture, distributed as follows:
+    * **Extracellular/Luminal Domain (Outside):** Residues 1 – 831. This massive domain houses the primary catalytic core and the heme-binding region.
+    * **Transmembrane Helix (TM):** Residues 832 – 852. A highly hydrophobic alpha-helix responsible for anchoring the enzyme to the apical membrane of thyroid follicular cells.
+    * **Intracellular Domain (Inside):** Residues 853 – 915. A short cytosolic tail.
+* **Significance:** Accurately mapping these topological domains ensured that downstream structural preparation and allosteric site searches avoided the membrane-embedded TM helix (which is typically poorly druggable) and focused on the accessible extracellular regions.
 
 ### 3. 3D Structure Generation
 * **Tool:** AlphaFold 
