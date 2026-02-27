@@ -48,6 +48,8 @@ The workflow of this project was executed using a combination of bioinformatics 
 * **Action:** An extensive search for potential binding pockets was conducted to identify an allosteric site. 
 * **Findings:** 10 potential pockets were identified.
 
+![sitmap](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-02-27%20211303.png)
+
 ## 📊 Results & Pocket Selection
 
 Out of the 10 predicted pockets, **Pocket 1** was selected as the optimal allosteric binding site based on its favorable scoring metrics and strategic location.
