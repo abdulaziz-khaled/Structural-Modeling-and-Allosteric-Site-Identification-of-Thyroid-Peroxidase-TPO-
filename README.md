@@ -1,4 +1,5 @@
 # Structural Modeling and Allosteric Site Identification of Thyroid Peroxidase (TPO) 🧬
+![TPO Protein Visualization](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/protein_dark_highres.png)
 
 ## 📌 Project Overview
 Thyroid Peroxidase (TPO) is a crucial enzyme responsible for thyroid hormone synthesis and is the primary target implicated in hypothyroidism and autoimmune thyroid diseases (e.g., Hashimoto's thyroiditis). Due to its large size and complexity, a complete 3D experimentally determined structure is currently unavailable. 
