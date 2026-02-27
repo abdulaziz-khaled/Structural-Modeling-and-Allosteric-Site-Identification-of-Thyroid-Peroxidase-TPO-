@@ -29,6 +29,9 @@ The workflow of this project was executed using a combination of bioinformatics 
     * **Intracellular Domain (Inside):** Residues 853 – 915. A short cytosolic tail.
 * **Significance:** Accurately mapping these topological domains ensured that downstream structural preparation and allosteric site searches avoided the membrane-embedded TM helix (which is typically poorly druggable) and focused on the accessible extracellular regions.
 
+![plot](https://github.com/abdulaziz-khaled/Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-/blob/main/%D9%84%D9%82%D8%B7%D8%A9%20%D8%B4%D8%A7%D8%B4%D8%A9%202026-02-27%20213121.png)
+
+
 ### 3. 3D Structure Generation
 * **Tool:** AlphaFold 
 * **Action:** Due to the lack of a full PDB structure, a high-confidence 3D model of the mature TPO was generated utilizing AlphaFold's deep learning predictive capabilities.
