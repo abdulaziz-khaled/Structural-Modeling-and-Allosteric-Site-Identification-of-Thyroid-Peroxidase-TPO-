@@ -9,9 +9,12 @@ This project aims to computationally model the 3D structure of mature TPO, analy
 
 The workflow of this project was executed using a combination of bioinformatics tools and molecular modeling software:
 
-### 1. Sequence Analysis & Signal Peptide Removal
-* **Tool:** [SignalP 6.0]
-* **Action:** The raw sequence of TPO was analyzed to identify and cleave the signal peptide, generating the **mature TPO** sequence ready for downstream processing.
+### 1. Sequence Analysis & Signal Peptide Cleavage
+* **Tool:** SignalP (version used, e.g., 6.0)
+* **Action:** The raw amino acid sequence of TPO was analyzed to identify and remove the secretory signal peptide, mimicking the physiological maturation process of the enzyme.
+* **Results:** * **Signal Peptide Probability:** 99.98%
+    * **Cleavage Site:** Between amino acids 18 and 19.
+    * **Outcome:** Residues 1 through 18 were successfully cleaved. The resulting sequence (starting from residue 19) represents the **mature TPO**, which was subsequently used for all downstream topological and structural modeling.
 
 ### 2. Transmembrane Topology Prediction
 * **Tool:** [DeepTMHMM]
