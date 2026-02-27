@@ -1,1 +1,1 @@
-# Structural-Modeling-and-Allosteric-Site-Identification-of-Thyroid-Peroxidase-TPO-
+# Structural Modeling and Allosteric Site Identification of Thyroid Peroxidase (TPO) 🧬
