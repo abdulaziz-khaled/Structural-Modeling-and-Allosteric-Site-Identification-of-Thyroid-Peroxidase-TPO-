@@ -13,7 +13,8 @@ The workflow of this project was executed using a combination of bioinformatics 
 ### 1. Sequence Analysis & Signal Peptide Cleavage
 * **Tool:** SignalP (version used, e.g., 6.0)
 * **Action:** The raw amino acid sequence of TPO was analyzed to identify and remove the secretory signal peptide, mimicking the physiological maturation process of the enzyme.
-* **Results:** * **Signal Peptide Probability:** 99.98%
+* **Results:** 
+    * **Signal Peptide Probability:** 99.98%
     * **Cleavage Site:** Between amino acids 18 and 19.
     * **Outcome:** Residues 1 through 18 were successfully cleaved. The resulting sequence (starting from residue 19) represents the **mature TPO**, which was subsequently used for all downstream topological and structural modeling.
 
